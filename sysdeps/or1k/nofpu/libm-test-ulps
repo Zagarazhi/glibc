@@ -27,7 +27,6 @@ double: 2
 
 Function: "acospi":
 double: 2
-float: 1
 
 Function: "asin":
 double: 1
@@ -55,7 +54,6 @@ double: 3
 
 Function: "asinpi":
 double: 1
-float: 1
 
 Function: "atan":
 double: 1
@@ -71,7 +69,6 @@ double: 8
 
 Function: "atan2pi":
 double: 1
-float: 1
 
 Function: "atan_downward":
 double: 1
@@ -96,7 +93,6 @@ double: 3
 
 Function: "atanpi":
 double: 2
-float: 1
 
 Function: "cabs":
 double: 1
@@ -513,7 +509,6 @@ double: 2
 
 Function: "cospi":
 double: 2
-float: 2
 
 Function: Real part of "cpow":
 double: 2
@@ -996,7 +991,6 @@ double: 3
 
 Function: "sinpi":
 double: 2
-float: 2
 
 Function: "tan_downward":
 double: 1
@@ -1021,7 +1015,6 @@ double: 3
 
 Function: "tanpi":
 double: 3
-float: 3
 
 Function: "tgamma":
 double: 9

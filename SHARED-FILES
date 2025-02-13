@@ -334,3 +334,31 @@ sysdeps/ieee754/flt-32/s_tanhf.c:
   (src/binary32/tanh/tanhf.c in CORE-MATH)
   - the code was adapted to use glibc code style and internal
     functions to handle errno, overflow, and underflow.
+sysdeps/ieee754/flt-32/s_acospif.c:
+  (src/binary32/acospi/acospif.c in CORE-MATH)
+  - the code was adapted to use glibc code style and internal
+    functions to handle errno, overflow, and underflow.
+sysdeps/ieee754/flt-32/s_asinpif.c:
+  (src/binary32/asinpi/asinpif.c in CORE-MATH)
+  - the code was adapted to use glibc code style and internal
+    functions to handle errno, overflow, and underflow.
+sysdeps/ieee754/flt-32/s_atan2pif.c:
+  (src/binary32/atan2pi/atan2pif.c in CORE-MATH)
+  - the code was adapted to use glibc code style and internal
+    functions to handle errno, overflow, and underflow.
+sysdeps/ieee754/flt-32/s_atanpif.c:
+  (src/binary32/atanpi/atanpif.c in CORE-MATH)
+  - the code was adapted to use glibc code style and internal
+    functions to handle errno, overflow, and underflow.
+sysdeps/ieee754/flt-32/s_cospif.c:
+  (src/binary32/cospi/cospif.c in CORE-MATH)
+  - the code was adapted to use glibc code style and internal
+    functions to handle errno, overflow, and underflow.
+sysdeps/ieee754/flt-32/s_sinpif.c:
+  (src/binary32/sinpi/sinpif.c in CORE-MATH)
+  - the code was adapted to use glibc code style and internal
+    functions to handle errno, overflow, and underflow.
+sysdeps/ieee754/flt-32/s_tanpif.c:
+  (src/binary32/tanpi/tanpif.c in CORE-MATH)
+  - the code was adapted to use glibc code style and internal
+    functions to handle errno, overflow, and underflow.

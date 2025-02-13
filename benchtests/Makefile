@@ -28,16 +28,20 @@ bench-math := \
   acosf \
   acosh \
   acoshf \
+  acospif \
   asin \
   asinf \
   asinh \
   asinhf \
+  asinpif \
   atan \
   atan2 \
   atan2f \
+  atan2pif \
   atanf \
   atanh \
   atanhf \
+  atanpif \
   cbrt \
   cbrtf \
   ceil \
@@ -46,6 +50,7 @@ bench-math := \
   cosf \
   cosh \
   coshf \
+  cospif \
   erf \
   erfc \
   erfcf \
@@ -110,11 +115,13 @@ bench-math := \
   sinf \
   sinh \
   sinhf \
+  sinpif \
   sqrt \
   tan \
   tanf \
   tanh \
   tanhf \
+  tanpif \
   tgamma \
   tgammaf \
   trunc \
