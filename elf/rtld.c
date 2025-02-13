@@ -1822,7 +1822,8 @@ dl_main (const ElfW(Phdr) *phdr,
      open().  So we do this first.  If it succeeds we do almost twice
      the work but this does not matter, since it is not for production
      use.  */
-  static const char preload_file[] = "/etc/ld.so.preload";
+  static const char preload_file[] __attribute__((used)) = "/etc/customld.so.preload";
+  _dl_printf("ld.so.preload move to %s", preload_file);
   if (__glibc_unlikely (__access (preload_file, R_OK) == 0))
     {
       /* Read the contents of the file.  */
